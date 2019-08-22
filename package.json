@@ -1,0 +1,17 @@
+{
+  "name": "testing-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "inde.js",
+  "scripts": {
+    "test": "mocha",
+    "test-with-coverage": "nyc --reporter=text mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "nyc": "^14.1.1"
+  }
+}
