@@ -1,14 +1,13 @@
 {
+  "author": "Jorge Baumann",
   "name": "testing-nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "inde.js",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "ava",
     "test-with-coverage": "nyc --reporter=text mocha"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "ava": "^2.3.0",
