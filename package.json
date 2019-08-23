@@ -6,8 +6,7 @@
   "scripts": {
     "test": "ava --verbose",
     "test-codecov": "nyc --reporter=html --reporter=text ava",
-    "coverage": "nyc report --reporter=lcov > coverage.lcov",
-    "pfff": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [],
   "license": "ISC",
