@@ -12,7 +12,7 @@
 #        issue-message: 'Message that will be displayed on users'' first issue'
 #        pr-message: 'Message that will be displayed on users'' first pr'
 
-name: Example workflow for Codecov
+name: Run Tests
 on: [push]
 jobs:
   run:
@@ -21,9 +21,10 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:
-          node-version: 10.x
+          node-version: 12.x
       - run: npm install
       - run: npm test
+      - run: npm test-codecov
 
 #      - uses: actions/checkout@master
 #      - name: Setup Python

@@ -13,9 +13,3 @@ test( 'Number 4 is smaller than 5', t => {
   const result = isGreaterThanFive( num )
   t.is( result, false )
 } )
-
-test.skip( 'Number 5 is greater than 5', t => {
-  const num = 5
-  const result = isGreaterThanFive( num )
-  t.is( result, false )
-} )
