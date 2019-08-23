@@ -1,10 +1,20 @@
-import test from 'ava';
+import test from 'ava'
+const isGreaterThanFive = require( '../src/isGreaterThanFive' )
 
-test('foo', t => {
-  t.pass();
-});
+test( 'Number 6 is greater than 5', t => {
+  const num = 6
+  const result = isGreaterThanFive( num )
+  t.is( result, true )
+} )
 
-test('bar', async t => {
-  const bar = Promise.resolve('bar');
-  t.is(await bar, 'bar');
-});
+// test( 'Number 5 is greater than 5', t => {
+//   const num = 5
+//   const result = isGreaterThanFive( num )
+//   t.is( result, false )
+// } )
+
+test( 'Number 4 is smaller than 5', t => {
+  const num = 4
+  const result = isGreaterThanFive( num )
+  t.is( result, false )
+} )

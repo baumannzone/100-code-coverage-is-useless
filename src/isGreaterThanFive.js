@@ -4,7 +4,11 @@
  * @returns {boolean}
  */
 const isGreaterThanFive = ( num ) => {
-  return num >= 5
+  if ( num >= 5 ) {
+    return true
+  } else {
+    return false
+  }
 }
 
 module.exports = isGreaterThanFive

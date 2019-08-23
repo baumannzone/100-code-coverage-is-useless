@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "test": "ava",
-    "test-with-coverage": "nyc --reporter=text mocha"
+    "test": "ava --verbose",
+    "test-codecov": "nyc --reporter=html --reporter=text ava"
   },
   "keywords": [],
   "license": "ISC",
