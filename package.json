@@ -6,12 +6,14 @@
   "scripts": {
     "test": "ava --verbose",
     "test-codecov": "nyc --reporter=html --reporter=text ava",
-    "coverage": "nyc report --reporter=lcov > coverage.lcov"
+    "coverage": "nyc report --reporter=lcov > coverage.lcov",
+    "pfff": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
     "ava": "^2.3.0",
+    "coveralls": "^3.0.6",
     "nyc": "^14.1.1"
   }
 }
