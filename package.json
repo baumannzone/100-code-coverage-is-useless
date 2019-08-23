@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "ava --verbose",
-    "test-codecov": "nyc --reporter=html --reporter=text ava"
+    "test-codecov": "nyc --reporter=html --reporter=text ava",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov"
   },
   "keywords": [],
   "license": "ISC",
