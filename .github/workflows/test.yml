@@ -1,0 +1,44 @@
+#name: Greetings
+#
+#on: [pull_request, issues]
+#
+#jobs:
+#  greeting:
+#    runs-on: ubuntu-latest
+#    steps:
+#    - uses: actions/first-interaction@v1
+#      with:
+#        repo-token: ${{ secrets.GITHUB_TOKEN }}
+#        issue-message: 'Message that will be displayed on users'' first issue'
+#        pr-message: 'Message that will be displayed on users'' first pr'
+
+name: Example workflow for Codecov
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 10.x
+      - run: npm install
+      - run: npm test
+
+#      - uses: actions/checkout@master
+#      - name: Setup Python
+#        uses: actions/setup-python@master
+#        with:
+#          version: 3.7
+#      - name: Generate coverage report
+#        run: |
+#          pip install pytest
+#          pip install pytest-cov
+#          pytest --cov=./ --cov-report=xml
+#      - name: Upload coverage to Codecov
+#        uses: codecov/codecov-action@v1.0.0
+#        with:
+#          token: ${{secrets.CODECOV_TOKEN}}
+#          file: ./coverage.xml
+#          flags: unittests
+#          name: codecov-umbrella
