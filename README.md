@@ -8,7 +8,7 @@
 
 > Code Coverage is a measurement of the percentage of code lines executed during the test suite.
 
+![CodeCov Terminal](./assets/terminal-codecov.png)
+
 ## Spoiler Alert
 Code coverage is not useless really. But you shouldn't trust it blindly.
-
-## The Code Coverage Fallacy
