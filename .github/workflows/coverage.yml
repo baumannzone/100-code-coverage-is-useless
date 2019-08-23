@@ -24,7 +24,7 @@ jobs:
           node-version: 12.x
       - run: npm install
       - run: npm run test
-      - run: nyc report --reporter=text-lcov > coverage.lcov
+      - run: npm run coverage
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1.0.0
         with:
