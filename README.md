@@ -13,6 +13,25 @@
 
 ![CodeCov Terminal](./assets/terminal-codecov.png)
 
+## Install
+```
+npm install
+```
+
+## Run code
+```
+npm run start
+```
+
+## Run tests
+```
+# run tests
+npm run test
+
+# run tests & get coverage report
+npm run test:coverage
+```
+
 ## 🔹 Spoiler Alert
 Code coverage is not useless really. But you shouldn't trust it blindly.
 
