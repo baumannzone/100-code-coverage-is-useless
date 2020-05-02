@@ -5,11 +5,11 @@
   "main": "src/index.js",
   "scripts": {
     "test": "ava --verbose",
-    "test-codecov": "nyc --reporter=html --reporter=text ava",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+    "test:coverage": "nyc npm run test && nyc report --reporter=text-lcov | coveralls",
+    "test:codecov": "nyc --reporter=html --reporter=text ava"
   },
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "ava": "^2.3.0",
     "coveralls": "^3.0.6",

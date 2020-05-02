@@ -12,3 +12,8 @@
 
 ## Spoiler Alert
 Code coverage is not useless really. But you shouldn't trust it blindly.
+
+---
+
+# License
+This material is available for private, non-commercial use under the GPL version 3. If you would like to use this material to conduct your own workshop, please contact me at [@baumannzone](https://twitter.com/baumannzone)

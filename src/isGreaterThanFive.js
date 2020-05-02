@@ -1,6 +1,6 @@
 /**
- * Returns true if number is greather than 5
- * @param num {Number}
+ * Returns true if number is greater than 5
+ * @param num {Number} Number to evaluate
  * @returns {boolean}
  */
 const isGreaterThanFive = ( num ) => {
@@ -9,6 +9,9 @@ const isGreaterThanFive = ( num ) => {
   } else {
     return false
   }
+
+  // I know there is a simple version 😜:
+  // return num >= 5;
 }
 
 module.exports = isGreaterThanFive

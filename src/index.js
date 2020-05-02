@@ -1,7 +1,7 @@
 const isGreaterThanFive = require( './isGreaterThanFive' )
 
 /**
- * Log if the number is greater than five
+ * Log if the number is greater than 5
  * @param num {Number} The number we are checking
  */
 const printNum = ( num ) => {
