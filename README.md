@@ -10,7 +10,7 @@
 
 ![CodeCov Terminal](./assets/terminal-codecov.png)
 
-## Spoiler Alert
+## 🔹 Spoiler Alert
 Code coverage is not useless really. But you shouldn't trust it blindly.
 
 ---
