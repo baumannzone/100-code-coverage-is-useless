@@ -10,7 +10,7 @@ const isGreaterThanFive = ( num ) => {
     return false
   }
 
-  // I know there is a simple version 😜:
+  // I know there is a simpler version 😜:
   // return num >= 5;
 }
 

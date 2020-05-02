@@ -4,12 +4,13 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "ava --verbose",
     "test:coverage": "nyc npm run test && nyc report --reporter=text-lcov | coveralls",
     "test:codecov": "nyc --reporter=html --reporter=text ava"
   },
-  "keywords": [],
-  "license": "MIT",
+  "keywords": ["testing", "code-coverage"],
+  "license": "GPL-3.0",
   "devDependencies": {
     "ava": "^2.3.0",
     "coveralls": "^3.0.6",
