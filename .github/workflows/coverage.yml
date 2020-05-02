@@ -10,4 +10,4 @@ jobs:
           node-version: 12.x
       - run: |
           npm install
-          npm run coverage
+          npm run test:coverage
