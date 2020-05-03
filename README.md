@@ -14,6 +14,7 @@
 * [Install](#install)
 * [Run code](#run-code)
 * [Run tests](#run-tests)
+* [Aditional info](#aditional-info)
 * [License](#license)
 * [Contributors ✨](#contributors--)
 
