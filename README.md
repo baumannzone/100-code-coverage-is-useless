@@ -10,7 +10,7 @@
 ---
 
 
-* [Live Demo](#demo--https---100-code-coverage-is-uselessnetlifyapp-)
+* [Live Demo](#demo)
 * [Install](#install)
 * [Run code](#run-code)
 * [Run tests](#run-tests)
