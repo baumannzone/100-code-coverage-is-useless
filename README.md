@@ -9,9 +9,20 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ---
 
+
+* [Live Demo](#demo--https---100-code-coverage-is-uselessnetlifyapp-)
+* [Install](#install)
+* [Run code](#run-code)
+* [Run tests](#run-tests)
+* [License](#license)
+* [Contributors ✨](#contributors--)
+
 > Code Coverage is a measurement of the percentage of code lines executed during the test suite.
 
 ![CodeCov Terminal](./assets/terminal-codecov.png)
+
+## DEMO: 
+https://100-code-coverage-is-useless.netlify.app/
 
 ## Install
 ```
@@ -32,8 +43,9 @@ npm run test
 npm run test:coverage
 ```
 
-## 🔹 Spoiler Alert
-Code coverage is not useless really. But you shouldn't trust it blindly.
+## Aditional Info
+- Test runner: [AVA](https://github.com/avajs/ava)
+- Coverage report: https://istanbul.js.org/ 
 
 
 ## License
