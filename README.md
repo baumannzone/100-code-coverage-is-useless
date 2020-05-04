@@ -23,7 +23,7 @@
 ![CodeCov Terminal](./assets/terminal-codecov.png)
 
 ## DEMO: 
-Src: https://100-code-coverage-is-useless.netlify.app/
+`/src`: https://100-code-coverage-is-useless.netlify.app/  
 Blog post: https://medium.com/@baumannsito/100-code-coverage-is-useless-48fcd5e0128b
 
 ## Install
